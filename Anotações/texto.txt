@@ -1,0 +1,5 @@
+comandos: http GET localhost:3333/users
+http POST localhost:3333/users
+
+python -m httpie GET http://localhost:3333/users
+python -m httpie http://localhost:3333/opa
