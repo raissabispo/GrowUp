@@ -3,3 +3,7 @@ http POST localhost:3333/users
 
 python -m httpie GET http://localhost:3333/users
 python -m httpie http://localhost:3333/opa
+
+node streams/fundamentos.js
+node streams/stream-http-server.js
+node streams/fake-upload-to-http-stream.js
